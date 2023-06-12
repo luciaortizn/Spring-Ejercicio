@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crud Alumnos</title>
+  <link rel=" stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <h1>CRUD</h1>
+    <table id="alumnos">
+      <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Acciones</th>
+      </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <div>
+      <input type="text" placeholder="introduce nombre" id="txtAlumno">
+      <button onclick ="add()">Guardar</button>
+    </div>
+    <div>
+      <input type="text" placeholder="introduce id a modif." id="idAlumno">
+      <input type="text" placeholder ="introduce nombre nuevo" id="txtNuevoAlumno">
+      <button onclick="edit()">Editar</button>
+    </div>
+  </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/tabla.js"></script>
+</html>

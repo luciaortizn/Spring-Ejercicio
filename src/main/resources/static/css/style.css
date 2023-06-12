@@ -1,0 +1,19 @@
+body{
+    font-family: monospace;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: green;
+}
+table, tr, td, th{
+    border: solid black 2px;
+    border-collapse: collapse;
+    text-align: center;
+}
+#alumnos{
+    width: 200px;
+    height: 100px;
+}

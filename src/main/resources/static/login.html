@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel=" stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1>LOGIN</h1>
+        <div>
+            <input type="text" placeholder=" nombre" id="nombreUsuario">
+            <input type ="text" placeholder="contraseña" id = "passwUsuario">
+            <button onclick ="add()">Guardar</button>
+        </div>
+        <div>
+            <div>Edita tu cuenta</div>
+            <input type="text" placeholder="introduce id a modif." id="idUsuario">
+            <input type="text" placeholder ="introduce nombre nuevo" id="nombreNuevoU">
+            <input type="text" placeholder ="introduce nombre nuevo" id="passwNuevaU">
+            <button onclick="edit()">Editar</button>
+        </div>
+        <button><a href = "registro.html">¿No te has registrado? Haz click aquí</a></button>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/tabla.js"></script>
+</html>
